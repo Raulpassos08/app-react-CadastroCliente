@@ -1,0 +1,36 @@
+.welcome-container {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.welcome-container h1 {
+  color: #007bff;
+}
+
+.welcome-container ol {
+  padding-left: 20px;
+}
+
+.welcome-container p {
+  color: #343a40;
+}
+
+.welcome-container button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-container button:hover {
+  background-color: #0056b3;
+}

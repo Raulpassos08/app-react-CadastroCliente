@@ -1,0 +1,38 @@
+/* reset css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* reset listas ul-ol-li */
+ul,
+ol {
+  list-style: none;
+}
+
+/* reset links */
+a {
+  text-decoration: none;
+}
+
+/* reset imagenes */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* reset botones */
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* reset formularios */
+
+input,
+textarea {
+  border: none;
+  outline: none;
+}

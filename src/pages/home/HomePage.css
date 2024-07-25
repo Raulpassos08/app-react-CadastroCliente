@@ -1,0 +1,33 @@
+.homepage-container {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  color: #333;
+}
+
+.homepage-container div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.homepage-title {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.homepage-subtitle {
+  font-size: 1.2em;
+}
+
+.homepage-info {
+  font-size: 1em;
+  color: #888;
+}
