@@ -1,12 +1,19 @@
-import { userData } from "../../pratice/Examples/userData";
-import { Welcome } from "../welcome/WelcomePage";
+import { Footer } from "../../components/Footer/Footer";
+import { Header } from "../../components/Header/Header";
+import MainContainer from "../../components/Main/MainContainer";
+
 import "./HomePage.css";
-userData;
 
 const HomePage = () => {
   return (
-    <div className="homepage-container">
-      <Welcome user={userData} />
+    <div>
+      {/* header */}
+      <Header />
+
+      {/* main */}
+      <MainContainer />
+      {/* footer */}
+      <Footer />
     </div>
   );
 };
